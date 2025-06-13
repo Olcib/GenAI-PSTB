@@ -1,0 +1,10 @@
+URL: URL: https://github.com/Olcib/GenAI-PSTB/blob/main/WEEK2/DAY4/ExerciceXP/WK2_DAY4_XP.ipynb
+suggestions for improvement:
+- Exercise 1: The `Siamese` class should be explicitly defined to inherit from the `Cat` class.  The instructions implied this, but it wasn't explicitly shown in the provided solution. Add attributes or methods specific to Siamese cats (e.g., `fur_color`).
+- Exercise 1:  The solution uses  `"{self.name} is walking."`  instead of `f'{self.name} is just walking around'` as requested in the example, but it's functionally equivalent. Make it consistent to the example.
+- Exercise 2: The `fight()` method lacks error handling.  What happens if `other_dog` is not a `Dog` object? Add input validation.
+- Exercise 3: The `play()` method should use `' '.join(dog_names)` to correctly format the output (it currently uses a comma). Also, add an explicit docstring.
+- Exercise 4: The `check_majority` method doesn't handle the case where a person with the given first name is not found in the family. Add a message to indicate this.
+- Exercise 4:  The `family_presentation` method could be improved by formatting the output more nicely (e.g., using f-strings and consistent spacing).
+Correctness: 85%
+-----
