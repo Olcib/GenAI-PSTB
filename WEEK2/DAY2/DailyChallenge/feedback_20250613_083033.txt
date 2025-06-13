@@ -1,0 +1,12 @@
+URL: https://github.com/Olcib/GenAI-PSTB/blob/main/WEEK2/DAY2/DailyChallenge/WK2_DAY2_DC.ipynb
+suggestions for improvement:
+- The variable name `dictionnary` should be `dictionary` for better readability and adherence to Python naming conventions.
+- Add a docstring to the `dictionary` function to explain its purpose, parameters, and return value. This improves readability and helps others understand the code's function.
+- While the current performance is acceptable for most inputs, for extremely large words, consider using a more optimized data structure or algorithm if performance becomes a bottleneck.  For most practical use-cases this is not a significant issue.
+- The input is stripped of leading/trailing whitespace using `.strip()`. Consider adding input validation to ensure only alphabetic characters are entered, preventing unexpected errors.
+Brief justification:
+- correctness: The code accurately implements the challenge's requirements. It takes user input, processes it to create a dictionary where keys are letters (strings) and values are lists of their indices in the input word. The examples provided in the challenge are all correctly handled by the code. This directly addresses all aspects of the problem description within the chapter content.
+- readability: The code is well-structured and easy to follow.  The use of `enumerate` enhances readability. However, minor improvements in variable naming and the addition of a docstring would further enhance readability.
+- performance: The time complexity of the code is O(n), where n is the length of the word. This is efficient for most inputs. For extremely large strings, optimization might be needed, but this is not a primary concern given the problem's context and expected input size.
+- security: The code doesn't introduce any security vulnerabilities. It only handles user input and processes it locally; there's no interaction with external systems or data sources that could expose the program to security risks.
+
