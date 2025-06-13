@@ -1,0 +1,8 @@
+URL: URL: https://github.com/Olcib/GenAI-PSTB/blob/main/WEEK2/DAY3/ExerciceXP/WK2_DAY3-XP.ipynb
+suggestions for improvement:
+- The exercises on Cats, Dogs, and Songs are incomplete and do not fully address the instructions.  The provided solutions only partially implement the required functionality.
+- Exercise 4 (Zoo) is more complete, but could be improved by adding error handling (e.g., checking for invalid input).
+- The `show_details` method in the Person class has a string formatting error. It should use an f-string correctly:  `print(f"Hello my name is {self.name}")`
+- The `sing_me_a_song` method in the Song class could be simplified.  Directly printing each line within the method would be more efficient than constructing a string and then printing it.
+Correctness: 70%
+-----
