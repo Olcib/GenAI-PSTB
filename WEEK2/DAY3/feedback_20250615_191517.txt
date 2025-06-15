@@ -1,0 +1,11 @@
+URL: https://github.com/Olcib/GenAI-PSTB/blob/main/WEEK2/DAY3/WK2_DAY3_DC.ipynb
+suggestions for improvement:
+- The code doesn't fully implement the `get_info` method to match the example output's formatting.  The alignment isn't consistent, and the spacing needs adjustment.
+- The bonus steps (6 and 7) are not implemented.  The code only addresses the core requirements of creating the `Farm` class, its methods (`__init__`, `add_animal`, `get_info`), and testing it. 
+- Add more comprehensive test cases to cover edge cases, such as adding an animal multiple times or adding an animal with a count of 0.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class, `__init__`, `add_animal`, and a partially correct version of `get_info` method. The  `add_animal` method correctly handles adding new animal types and incrementing existing ones. However, the `get_info` method's output formatting doesn't perfectly align with the example provided in the instructions.  The bonus features are entirely missing, reducing the correctness score. This aligns with the chapter content's focus on classes, objects, dictionaries, methods, and string formatting, but falls short of fully implementing all aspects of the specified problem.
+- readability: The code is well-structured and easy to understand.  Variable names are descriptive, and the logic within the methods is clear. The use of f-strings for string formatting improves readability. However, minor improvements to the formatting of the output string in `get_info` would enhance readability further.
+- performance: The code's performance is efficient. The operations are simple, and the time complexity is linear with respect to the number of animals added. There are no unnecessary computations or data structures.
+- security: There are no security concerns in this code.  It performs basic operations on a dictionary and strings and doesn't interact with external resources or handle user input, eliminating any potential security risks.
+
