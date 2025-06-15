@@ -1,0 +1,16 @@
+URL: URL: https://github.com/Olcib/GenAI-PSTB/blob/main/Rock_Paper_Scisors_Game/Rock_Paper_Scisors_Game/Game.ipynb
+suggestions for improvement:
+- The code only implements the `game.py` portion of the project.  The `rock-paper-scissors.py` file and its functions (`get_user_menu_choice`, `print_results`, `main`) are missing. This is a major omission.
+- The `play` method in the `Game` class returns a string ('win', 'draw', 'loss'), not the format 'win;draw;loss;' as specified in the instructions.
+- Error handling could be improved. While the `get_user_item` function handles invalid input, it could benefit from more robust error handling (e.g., handling non-string input).
+- The code lacks a main function to run the game and aggregate results across multiple rounds.  The provided code only runs a single round.
+Correctness: 70%
+-----
+URL: URL: https://github.com/Olcib/GenAI-PSTB/blob/main/Rock_Paper_Scisors_Game/Rock_Paper_Scisors_Game/Rock_Paper_Scissors.ipynb
+suggestions for improvement:
+- The provided code only includes `rock-paper-scissors.py`.  It's missing the crucial `game.py` file containing the `Game` class with its methods (`get_user_item`, `get_computer_item`, `get_game_result`, `play`). Without `game.py`, the core functionality of the Rock-Paper-Scissors game is absent. The existing code only provides the menu and result display parts.
+- The `get_user_menu_choice` function lacks robust input validation. It only checks for '1', '2', 'x', or 'q'.  It should handle other invalid inputs more gracefully, perhaps by providing a clearer error message and looping until valid input is received.
+- Error handling is minimal.  There's no attempt to catch or handle potential exceptions (e.g., `ValueError` if the user enters non-numeric input where a number is expected).
+- The `main` function doesn't explicitly handle the case where the user chooses to see scores before any game has been played.  The output would be empty.
+Correctness: 0%
+-----
