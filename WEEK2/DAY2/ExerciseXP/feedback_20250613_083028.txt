@@ -1,0 +1,16 @@
+URL: https://github.com/Olcib/GenAI-PSTB/blob/main/WEEK2/DAY2/ExerciseXP/WK2_DAY2_XP.ipynb
+suggestions for improvement:
+- The first exercise (converting lists to dictionaries) is correctly implemented using the `zip` function.  However, it would be beneficial to include a dictionary comprehension solution as well, to showcase alternative approaches mentioned in the chapter.
+- The Cinemax exercise is partially implemented.  It calculates the total cost correctly but doesn't include the bonus feature of handling user input. Add this functionality to fully address the exercise requirements.
+- The Zara exercise demonstrates dictionary manipulation (adding, updating, deleting keys) reasonably well, but it lacks the bonus task of merging dictionaries. The code also has multiple changes to the `brand` dictionary, making it harder to follow. Consider assigning a new dictionary to store the modified data instead of continuously modifying `brand` in place.
+- Exercise 4 (Some Geography) is implemented correctly, demonstrating the use of default parameter values in functions. 
+- Exercise 5 (Random) has issues.  The code generates random numbers but lacks the function structure described. It also doesn't compare the numbers as requested; it just generates two random numbers. Revise the code to address these flaws.
+- Exercise 6 (Personalized Shirts) is well-implemented using default parameters and demonstrating correct function calls.
+- Exercise 7 (Temperature Advice) is partially correct. The basic temperature advice is implemented.  But the bonus (handling floating-point numbers and seasons) is missing or implemented incorrectly. It doesn't correctly use the random function.
+- Exercise 8 (Pizza Toppings) is fully implemented correctly. It handles user input, calculates the total cost, and provides output as specified. 
+Brief justification:
+- correctness: Several exercises are partially complete.  The code addresses parts of the chapter's topics (dictionaries, list manipulation, conditional logic, built-in functions) but doesn't fulfill all instructions and bonus tasks for every exercise.  The score reflects this partial success. The map and filter exercise is not related to the chapter's exercises.
+- readability: The code is generally readable; however, some exercises could benefit from better comments explaining the logic and the use of variables. The Zara exercise, for example, repeatedly modifies the `brand` dictionary, making it harder to track changes.  The overall structure of some solutions could be improved for better clarity.
+- performance: The code's performance is generally good; it performs the basic tasks efficiently. There are no major performance bottlenecks; however, for very large datasets, more optimized approaches could be considered (for example, using more efficient data structures or algorithms).
+- security: No security concerns are apparent in the provided code. The code does not handle any user inputs in a way that could create security vulnerabilities.
+
