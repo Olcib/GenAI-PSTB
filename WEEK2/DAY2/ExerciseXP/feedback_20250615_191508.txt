@@ -1,0 +1,11 @@
+URL: https://github.com/Olcib/GenAI-PSTB/blob/main/WEEK2/DAY2/ExerciseXP/WK2_DAY1_XP.ipynb
+suggestions for improvement:
+- In Exercise 1, while the code works, it could be slightly improved for readability by using a more descriptive variable name than '_'.  For example, `for i in range(4):` would make it clearer that the loop iterates four times.
+- Exercise 3 could incorporate more robust error handling.  Currently, it assumes the user will input a name. Consider adding a check to handle cases where the user might just press Enter.
+- In Exercise 8, the code correctly removes Pastrami sandwiches and processes other orders. However, the 'Sorry, we're out of Pastrami!' message is printed before the loop to remove the Pastrami.  A better approach would be to check for Pastrami in the list *before* printing the message to avoid unnecessary printing if no Pastrami is present. It also would be better to use a `for` loop here rather than a `while` loop and `pop(0)`. Using `pop(0)` modifies the original list.
+Brief justification:
+- correctness: The code accurately addresses all exercises in the chapter. Each exercise is completed and delivers the expected output as specified in the exercise instructions. The code directly implements the functionality described, covering basic Python syntax, user input/output, data types (lists, tuples, sets), conditional statements, and loops, all outlined in the chapter content.
+- readability: The code is generally well-structured and easy to follow. Variable names are mostly descriptive. However, minor improvements (as suggested in the feedback) would enhance readability.
+- performance: The code's performance is efficient for the tasks involved. The algorithms used are straightforward and have a time complexity suitable for the small datasets used in the examples.
+- security: No security concerns are present in the provided code as it only interacts with user input in a very basic way and does not handle external files or network operations.
+
